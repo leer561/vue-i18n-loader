@@ -23,7 +23,9 @@ function generateCode(content) {
 	let value = typeof content === 'string'
 		? JSON.parse(content)
 		: content
-	value = value[workStatus]
+	value = {
+		[workStatus]:value[workStatus]
+	}
 	value = JSON.stringify(value)
 		.replace(/\u2028/g, '\\u2028')
 		.replace(/\u2029/g, '\\u2029')
