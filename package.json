@@ -26,6 +26,7 @@
     "eslint-config-vue": "^2.0.2",
     "eslint-plugin-vue": "^2.0.1",
     "git-commit-message-convention": "git://github.com/kazupon/git-commit-message-convention.git",
+    "minimist": "^1.2.0",
     "nyc": "^10.2.0"
   },
   "engines": {
